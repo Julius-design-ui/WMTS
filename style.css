@@ -1,0 +1,941 @@
+*{
+	box-sizing: border-box;
+}
+
+.logo{
+    height: 200px;
+    width: auto;
+    display: block;
+}
+
+body{
+	margin: 0;
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	color: dimgrey;
+	background-color: whitesmoke;
+}
+
+header {
+    background-color: seagreen;
+    color: white;
+    padding: 20px;
+}
+
+footer h2 {
+    text-align: center;
+
+}
+
+footer p {
+    text-align: center;
+
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+nav li {
+    margin-bottom: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main section:first-child:not(.home-hero) {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: palegreen;
+}
+
+main section:first-child:not(.home-hero) img {
+    width: 100%;
+    max-width: 900px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+a {
+    color: dodgerblue;
+}
+
+main a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: seagreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+main a:hover {
+    background-color: dodgerblue;
+    transform: translateY(-2px);
+}
+
+main section:nth-child(2) > article:hover,
+main section:nth-child(3) > article:hover {
+    transform: translateY(-5px);
+}
+
+main section:nth-child(2) img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+main section:nth-child(2),
+main section:nth-child(3) {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+main section:nth-child(2) > h2,
+main section:nth-child(2) > p,
+main section:nth-child(3) > h2,
+main section:nth-child(3) > p {
+    width: 100%;
+}
+
+main section:nth-child(2),
+main section:nth-child(3) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+main section:nth-child(2) > article,
+main section:nth-child(3) > article {
+    flex: 1 1 280px;
+    max-width: 350px;
+}
+
+/* Whole navigation background */
+.navbar-custom {
+    background-color: dodgerblue;
+    padding: 15px 0;
+}
+
+/* Website name */
+.website-name {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Navigation links */
+.navbar-custom .nav-link {
+    color: white !important;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.navbar-custom .nav-link:hover {
+    background-color: white;
+    color: #0d6efd !important;
+    border-radius: 6px;
+}
+
+.website-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+
+.website-name {
+    display: flex;
+    flex-direction: column;
+    color: white !important;
+    font-size: 21px;
+    font-weight: 900;
+    line-height: 1.15;
+}
+
+.navbar-custom .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+
+/* Highlight the page the visitor is currently viewing */
+.navbar-custom .nav-link.active {
+    background-color: white;
+    color: #0d6efd !important;
+    font-weight: 800;
+    border-radius: 6px;
+}
+
+/* CONTACT PAGE HERO */
+
+.contact-hero {
+    background: linear-gradient(
+        rgba(10, 35, 30, 0.72),
+        rgba(10, 35, 30, 0.82)
+    ),
+    url("Pictures/Lithaba.jpg") center/cover no-repeat;
+
+    color: white;
+    padding: 110px 20px;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-label {
+    color: #d8f3dc;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.contact-hero h1 {
+    font-size: clamp(38px, 6vw, 68px);
+    font-weight: 900;
+    line-height: 1.1;
+    max-width: 750px;
+    margin-bottom: 24px;
+}
+
+.hero-description {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: #d8f3dc;
+    color: #1b4332;
+    padding: 14px 26px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    background-color: dodgerblue;
+    color: #1b4332;
+    transform: translateY(-3px);
+}
+
+/* JOURNEY PLANNER SECTION */
+
+.journey-section {
+    background-color: #f5f5f0;
+    padding: 30px 0;
+}
+
+.journey-section h2 {
+    color: seagreen;
+    font-size: clamp(28px, 4vw, 40px);
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.journey-section .container > p {
+    color: seagreen;
+    margin-bottom: 30px;
+}
+
+/* Booking card */
+
+.booking-card {
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 35px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 15px 45px rgba(27, 67, 50, 0.12);
+    border: 1px solid #e4ebe5;
+}
+
+.booking-heading {
+    padding-bottom: 24px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid grey;
+}
+
+.booking-label {
+    color: seagreen;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.booking-heading h3 {
+    color: seagreen;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.booking-heading p:last-child {
+    color: seagreen;
+    margin-bottom: 0;
+}
+
+/* Form fields */
+
+#bookingForm {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+}
+
+#bookingForm > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#bookingForm label {
+    color: seagreen;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#bookingForm input,
+#bookingForm select,
+#bookingForm textarea {
+    width: 100%;
+    padding: 13px 14px;
+    border: 1px solid dodgerblue;
+    border-radius: 8px;
+    background-color: white;
+    color: grey;
+    font: inherit;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#bookingForm input:focus,
+#bookingForm select:focus,
+#bookingForm textarea:focus {
+    border-color: black;
+    box-shadow: 0 0 0 3px rgba(45, 106, 79, 0.12);
+}
+
+#bookingForm textarea {
+    resize: vertical;
+}
+
+#bookingForm > div:nth-last-of-type(1) {
+    grid-column: 1 / -1;
+}
+
+/* Submit button */
+
+#bookingForm button {
+    grid-column: 1 / -1;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: seagreen;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background-color 0.25s, transform 0.25s;
+}
+
+#bookingForm button:hover {
+    background-color: dodgerblue;
+    transform: translateY(-2px);
+}
+
+/* Mobile layout */
+
+@media (max-width: 600px) {
+    .booking-card {
+        padding: 22px 18px;
+        margin: 25px auto;
+    }
+
+    #bookingForm {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    #bookingForm > div:nth-last-of-type(1),
+    #bookingForm button {
+        grid-column: 1;
+    }
+
+    .booking-heading h3 {
+        font-size: 25px;
+    }
+}
+
+
+/*CONTACT INFORMATION CARDS*/
+.contact-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    margin-top: 35px;
+}
+
+.contact-card {
+    background: ghostwhite;
+    padding: 30px 22px;
+    border: 1px solid dodgerblue;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(27, 67, 50, 0.07);
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.contact-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(27, 67, 50, 0.13);
+}
+
+.contact-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background: dodgerblue;
+    color: dodgerblue;
+    font-size: 27px;
+}
+
+.contact-card h3 {
+    color: seagreen;
+    font-size: 21px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.contact-card p {
+    color: seagreen;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.contact-card a,
+.contact-card span {
+    color: white;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+    background-color: seagreen;
+}
+
+@media (max-width: 768px) {
+    .contact-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* HAVE A QUESTION SECTION */
+.question-section {
+    background: white;
+    padding: 65px 20px;
+}
+
+.question-section h2 {
+    color: seagreen;
+    font-size: clamp(30px, 4vw, 42px);
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.question-section .container > p {
+    color: seagreen;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 650px;
+    margin-bottom: 35px;
+}
+
+/* CONTACT FORM CARD */
+#contactForm {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 35px;
+    background: ghostwhite;
+    border: 1px solid dodgerblue;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(27, 67, 50, 0.09);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+}
+
+#contactForm > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#contactForm label {
+    color: seagreen;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 13px 14px;
+    border: 1px solid dodgerblue;
+    border-radius: 8px;
+    background: white;
+    color: black;
+    font: inherit;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+    border-color: black;
+    box-shadow: 0 0 0 3px rgba(45, 106, 79, 0.12);
+}
+
+#contactForm textarea {
+    resize: vertical;
+}
+
+/* Make the message field and button span both columns */
+#contactForm > div:last-of-type,
+#contactForm button {
+    grid-column: 1 / -1;
+}
+
+#contactForm button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    background: seagreen;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background 0.25s, transform 0.25s;
+}
+
+#contactForm button:hover {
+    background: dodgerblue;
+    transform: translateY(-2px);
+}
+
+/* PHONE LAYOUT */
+@media (max-width: 600px) {
+    #contactForm {
+        grid-template-columns: 1fr;
+        padding: 22px 18px;
+    }
+
+    #contactForm > div:last-of-type,
+    #contactForm button {
+        grid-column: 1;
+    }
+}
+
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1000;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    color: skyblue;
+    font-size: 28px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, transform 0.3s;
+}
+
+#backToTop:hover {
+    transform: translateY(-4px);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1000;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-top: 3px solid currentColor;
+    border-left: 3px solid currentColor;
+    transform: translateY(4px) rotate(45deg);
+}
+
+#backToTop:hover {
+    color: transparent;
+    transform: translateY(-4px);
+}
+
+
+/* Destination Discover More buttons */
+.discover-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 2px solid seagreen;
+    border-radius: 30px;
+    background: transparent;
+    color: grey;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    width: fit-content;
+}
+
+/* Hover and keyboard focus */
+.discover-btn:hover,
+.discover-btn:focus-visible {
+    background: dodgerblue;
+    align: center;
+    color: white;
+    border-color: seagreen;
+    box-shadow: 0 5px 15px rgba(27, 67, 50, 0.2);
+    transform: translateY(-3px);
+}
+
+/* Press effect */
+.discover-btn:active {
+    transform: translateY(0) scale(0.97);
+}
+
+/* Extra destination information */
+.destination-extra {
+    margin-top: 15px;
+    padding: 18px;
+    border-left: 4px solid dodgerblue;
+    border-radius: 8px;
+    background: whitesmoke;
+    color: black;
+    animation: destinationReveal 0.35s ease;
+}
+
+.destination-extra p:last-child {
+    margin-bottom: 0;
+}
+
+@keyframes destinationReveal {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .discover-btn,
+    .destination-extra {
+        animation: none;
+        transition: none;
+    }
+}
+
+
+/* Destination photo and text overlay */
+.destination-photo {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 15px 0;
+    background: grey;
+}
+
+.destination-photo .destination-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 0;
+    transition: transform 0.4s ease;
+}
+
+.destination-photo:hover .destination-image {
+    transform: scale(1.04);
+}
+
+.destination-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24px;
+    color: white;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.88),
+        rgba(0, 0, 0, 0.48) 55%,
+        rgba(0, 0, 0, 0.05)
+    );
+
+
+text-align: left;
+align-items: flex-start;
+
+}
+
+.destination-overlay h2 {
+    color: white;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.destination-overlay p {
+    color: white;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+    .destination-photo {
+        height: 460px;
+    }
+
+    .destination-overlay {
+        padding: 16px;
+    }
+
+    .destination-overlay p {
+        font-size: 14px;
+    }
+}
+
+
+
+/* HOMEPAGE HERO */
+.home-hero {
+    position: relative;
+    isolation: isolate;
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1b4332;
+}
+
+/* Full-width photograph behind the hero text */
+.home-hero-image {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0;
+    z-index: -2;
+}
+
+/* Dark overlay keeps white text readable */
+.home-hero-overlay {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    padding: 60px 24px;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.30),
+        rgba(0, 0, 0, 0.38) 45%,
+        rgba(0, 0, 0, 0.68)
+    );
+}
+
+.home-hero-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.home-hero-content .hero-eyebrow {
+    margin: 0 auto 18px;
+    color: #d8f3dc;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+
+.home-hero-content h1 {
+    margin: 0 0 18px;
+    color: #ffffff;
+    font-size: clamp(42px, 7vw, 88px);
+    font-weight: 900;
+    line-height: 1.08;
+}
+
+.home-hero-content h2 {
+    margin: 0 0 22px;
+    color: #ffffff;
+    font-size: clamp(24px, 4vw, 46px);
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.home-hero-content .hero-description {
+    max-width: 780px;
+    margin: 0 auto 32px;
+    color: #ffffff;
+    font-size: clamp(16px, 2vw, 23px);
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+/* Homepage call-to-action button: class matches index.html */
+.hero-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 0;
+    padding: 16px 32px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    color: #ffffff;
+    background: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 800;
+    transition: background-color 0.3s ease, color 0.3s ease,
+                transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-cta:hover,
+.hero-cta:focus-visible {
+    background: #ffffff;
+    color: #1b4332;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.hero-cta span {
+    font-size: 25px;
+    line-height: 1;
+}
+
+/* Keep the existing contact-page hero button working */
+.hero-button {
+    display: inline-block;
+    background-color: #d8f3dc;
+    color: #1b4332;
+    padding: 14px 26px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    background-color: dodgerblue;
+    color: #1b4332;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 576px) {
+    .home-hero {
+        height: 85vh;
+        min-height: 560px;
+    }
+
+    .home-hero-overlay {
+        min-height: 560px;
+        padding: 45px 18px;
+    }
+
+    .home-hero-content h1 {
+        font-size: clamp(38px, 10vw, 58px);
+    }
+
+    .home-hero-content h2 {
+        font-size: clamp(22px, 6vw, 32px);
+    }
+
+    .home-hero-content .hero-description {
+        font-size: 16px;
+    }
+
+    .hero-cta {
+        padding: 14px 22px;
+        font-size: 13px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-cta,
+    .hero-button {
+        transition: none;
+    }
+}

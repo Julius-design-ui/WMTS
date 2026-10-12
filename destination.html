@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Destinations | Where Mountains Tell Stories</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-custom">
+
+            <div class="container">
+
+                <a class="navbar-brand website-brand" href="index.html">
+                <img src="Pictures/Logo (1)-01.png"
+                alt="Where Mountains Tell Stories"
+                class="logo">
+
+                <span class="website-name">
+                <span>Where Mountains</span>
+                <span>Tell Stories</span>
+                </span>
+            </a>
+
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mainNavbar"
+                        aria-controls="mainNavbar"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">
+                                About
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active"
+                               href="destination.html"
+                               aria-current="page">Destinations</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="activities.html">
+                                Activities
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="gallery.html">
+                                Gallery
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contacts.html">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- Opening -->
+
+        <section>
+
+            <div class="container py-5">
+
+                <h1>Places Worth the Journey</h1>
+
+                <p>
+                    Some places are visited. Others are remembered.
+                    Explore the landscapes, landmarks and hidden corners
+                    that make Lesotho a journey worth taking.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Maletsunyane -->
+
+        <section>
+
+            <div class="container py-5">
+
+                <article>
+
+                    <div class="destination-photo">
+                        <img src="Pictures/Maletsunyane-falls.jpeg"
+                             alt="Maletsunyane Falls plunging into a deep gorge in Lesotho"
+                             class="destination-image">
+
+                        <div class="destination-overlay">
+                            <h2>Maletsunyane Falls</h2>
+
+                            <p>
+                                Near Semonkong, the Maletsunyane Falls drops
+                                dramatically into a deep gorge, creating one of
+                                Lesotho's most striking natural landscapes.
+                            </p>
+
+                            <p>
+                                The surrounding highlands make this more than
+                                a waterfall stop. It is a place to experience
+                                the scale and silence of the mountains.
+                            </p>
+
+                            <p>
+                                <strong>Best for:</strong> Photography, hiking
+                                and adventure.
+                            </p>
+                        </div>
+                    </div>
+
+                    <button class="discover-btn" type="button"
+                        onclick="toggleDestinationInfo('maletsunyaneInfo', this)">
+                        Discover More +
+                    </button>
+
+                    <div id="maletsunyaneInfo" class="destination-extra" hidden>
+                        <p><strong>What to experience:</strong> Take in the dramatic waterfall, explore the surrounding highlands, and enjoy the mountain scenery.</p>
+                        <p><strong>Travel tip:</strong> Wear comfortable shoes and check local conditions before setting out on a hike.</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Thaba-Bosiu -->
+
+        <section>
+
+            <div class="container py-5">
+
+                <article>
+
+                    <div class="destination-photo">
+                        <img src="Pictures/Thaba-bosiu (3).jpg"
+                             alt="The historic mountain landscape of Thaba Bosiu in Lesotho"
+                             class="destination-image">
+
+                        <div class="destination-overlay">
+                            <h2>Thaba Bosiu</h2>
+
+                            <p>
+                                Rising above the surrounding landscape, Thaba Bosiu
+                                is one of the most important historical sites in
+                                Lesotho. Its connection to King Moshoeshoe I makes
+                                this mountain more than a beautiful viewpoint.
+                            </p>
+
+                            <p>
+                                It is a place where the history of the Basotho
+                                nation comes alive.
+                            </p>
+
+                            <p>
+                                <strong>Best for:</strong> History, culture,
+                                and panoramic views.
+                            </p>
+                        </div>
+                    </div>
+
+                    <button class="discover-btn" type="button"
+                        onclick="toggleDestinationInfo('thabaBosiuInfo', this)">
+                        Discover More +
+                    </button>
+
+                    <div id="thabaBosiuInfo" class="destination-extra" hidden>
+                        <p><strong>What to experience:</strong> Explore the historic mountain associated with King Moshoeshoe I and enjoy panoramic views of the surrounding landscape.</p>
+                        <p><strong>Travel tip:</strong> Wear comfortable walking shoes and allow time to explore the historical site.</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Ts'ehlanyane -->
+
+        <section>
+
+            <div class="container py-5">
+
+                <article>
+
+                    <div class="destination-photo">
+                        <img src="Pictures/tsehlanyane-national-park.jpeg"
+                             alt="The rugged mountain scenery and natural landscape of Ts'ehlanyane National Park"
+                             class="destination-image">
+
+                        <div class="destination-overlay">
+                            <h2>Ts'ehlanyane National Park</h2>
+
+                            <p>
+                                Step away from busy roads and into one of
+                                Lesotho's peaceful mountain environments.
+                                The park is surrounded by rugged highlands,
+                                native vegetation, and scenic walking trails,
+                                making it a natural escape for travelers who
+                                prefer slower adventures.
+                            </p>
+
+                            <p>
+                                <strong>Best for:</strong> Nature, hiking,
+                                and peaceful escapes.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <button class="discover-btn" type="button"
+                        onclick="toggleDestinationInfo('tsEhlanyaneInfo', this)">
+                        Discover More +
+                    </button>
+
+                    <div id="tsEhlanyaneInfo" class="destination-extra" hidden>
+                        <p><strong>What to experience:</strong> Enjoy scenic walking trails, explore the native vegetation, and take in the rugged mountain landscape.</p>
+                        <p><strong>Travel tip:</strong> Wear comfortable walking shoes and bring warm clothing for changing mountain weather.</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <div class="container py-5">
+
+                <article>
+
+
+                    <div class="destination-photo">
+                        <img src="Pictures/afriski-mountain-resort.jpg"
+                             alt="AfriSki Mountain Resort surrounded by Lesotho's high mountains"
+                             class="destination-image">
+
+                        <div class="destination-overlay">
+                            <h2>AfriSki Mountain Resort</h2>
+
+                            <p>
+                                When winter transforms the highlands, AfriSki
+                                becomes one of Lesotho's most distinctive
+                                adventure destinations. Snow, mountains, and
+                                outdoor activities create an experience that
+                                feels very different from the usual Southern
+                                African getaway.
+                            </p>
+
+                            <p>
+                                <strong>Best for:</strong> Skiing, snow,
+                                and adventure.
+                            </p>
+                        </div>
+                    </div>
+
+                    <button class="discover-btn" type="button"
+                        onclick="toggleDestinationInfo('afriskiInfo', this)">
+                        Discover More +
+                    </button>
+
+                    <div id="afriskiInfo" class="destination-extra" hidden>
+                        <p><strong>What to experience:</strong> Enjoy snow activities, take in the dramatic highland scenery, and experience Lesotho's winter adventure atmosphere.</p>
+                        <p><strong>Travel tip:</strong> Check seasonal snow conditions before travelling and pack warm clothing.</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Katse Dam -->
+
+        <section>
+
+            <div class="container py-5">
+
+                <article>
+
+                    <div class="destination-photo">
+                        <img src="Pictures/Katse-dam (7).jpg"
+                             alt="Katse Dam and the surrounding Lesotho highlands"
+                             class="destination-image">
+
+                        <div class="destination-overlay">
+                            <h2>Katse Dam</h2>
+
+                            <p>
+                                Discover one of Lesotho's most impressive
+                                engineering landmarks, set among the dramatic
+                                highlands. Katse Dam combines remarkable
+                                architecture with sweeping mountain scenery
+                                and peaceful views of the water.
+                            </p>
+
+                            <p>
+                                Take in the impressive dam, admire the
+                                surrounding highland scenery, and enjoy
+                                the peaceful mountain atmosphere.
+                            </p>
+
+                            <p>
+                                <strong>Best for:</strong> Scenic views,
+                                photography, and sightseeing.
+                            </p>
+                        </div>
+            </div>
+
+                    <button class="discover-btn" type="button"
+                        onclick="toggleDestinationInfo('katseDamInfo', this)">
+                        Discover More +
+                    </button>
+
+                    <div id="katseDamInfo" class="destination-extra" hidden>
+                        <p><strong>What to experience:</strong> Take in the impressive dam, admire the surrounding highland scenery, and enjoy the peaceful mountain atmosphere.</p>
+                        <p><strong>Travel tip:</strong> Plan your journey ahead and check local access conditions before visiting.</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Semonkong -->
+
+        <section>
+
+            <div class="container py-5">
+
+                <article>
+
+                    <div class="destination-photo">
+                        <img src="Pictures/semonkong-lodge.jpg"
+                             alt="The mountainous landscape surrounding Semonkong in Lesotho"
+                             class="destination-image">
+
+                        <div class="destination-overlay">
+                            <h2>Semonkong</h2>
+
+                            <p>
+                                Known for its beautiful mountain scenery,
+                                Semonkong offers a chance to experience
+                                the quieter side of Lesotho. Its rugged
+                                landscapes and traditional surroundings
+                                make it a memorable stop for visitors
+                                exploring the highlands.
+                            </p>
+
+                            <p>
+                                Explore the mountain surroundings, enjoy
+                                the local scenery, and discover the
+                                landscapes around Semonkong.
+                            </p>
+
+                            <p>
+                                <strong>Best for:</strong> Nature, photography,
+                                and cultural experiences.
+                            </p>
+                        </div>
+                    </div>
+
+                    <button class="discover-btn" type="button"
+                        onclick="toggleDestinationInfo('semonkongInfo', this)">
+                        Discover More +
+                    </button>
+
+                    <div id="semonkongInfo" class="destination-extra" hidden>
+                        <p><strong>What to experience:</strong> Explore the mountain surroundings, enjoy the local scenery, and discover the landscapes around Semonkong.</p>
+                        <p><strong>Travel tip:</strong> Allow enough travel time, as mountain roads can make journeys slower.</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Choose Your Journey -->
+
+        <section>
+
+            <div class="container py-5">
+
+                <h2>What Kind of Story Are You Looking For?</h2>
+
+                <p>
+                    Every destination offers something different.
+                    Choose the kind of experience that feels like
+                    your journey.
+                </p>
+
+                <ul>
+
+                    <li>
+                        <strong>For the adventurer:</strong>
+                        Semonkong and Maletsunyane Falls
+                    </li>
+
+                    <li>
+                        <strong>For the historian:</strong>
+                        Thaba-Bosiu
+                    </li>
+
+                    <li>
+                        <strong>For the nature lover:</strong>
+                        Ts'ehlanyane National Park
+                    </li>
+
+                    <li>
+                        <strong>For the winter explorer:</strong>
+                        Afriski
+                    </li>
+
+                    <li>
+                        <strong>For the photographer:</strong>
+                        Katse Dam and the surrounding highlands
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <!-- Closing -->
+
+        <section>
+
+            <div class="container py-5">
+
+                <h2>The Mountains Are Waiting</h2>
+
+                <p>
+                    You can look at Lesotho on a map.
+                    Or you can follow the road and discover the story
+                    for yourself.
+                </p>
+
+                <a href="activities.html">
+                    Find Your Adventure
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+                &copy; 2026 Where Mountains Tell Stories.
+                Discover Lesotho, one story at a time.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <button id="backToTop" type="button" aria-label="Back to top">
+    <span class="arrow-icon"></span>
+    </button>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
